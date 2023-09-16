@@ -1,0 +1,22 @@
+package application;
+
+import java.util.Date;
+
+import entities.Product;
+import entities.UsedProduct;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+
+		
+		Product p1 = new Product("TV", 1000.0);
+		Product p2 = new UsedProduct("Iphone", 400.0, new Date());
+		Product p3 = new 
+		
+		System.out.println(p1.priceTag());
+		System.out.println(p2.priceTag());
+	}
+
+}
